@@ -1,0 +1,401 @@
+<!DOCTYPE html >
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Categories</title>
+    <!--Font Awesome Library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <!--Goolge Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&amp;display=swap" rel="stylesheet"/>
+    <!--Swiper JS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <!--Main CSS File-->
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+  </head>
+  <body> 
+    <div class="overlay"></div>
+    <header>
+      <div class="container"> 
+        <div class="burger-icon"> <span></span><span></span><span></span></div>
+        <div class="nav-icons">
+          
+          <a href="#"><i class="fa-regular fa-user"></i></a><a href="#" data-fav="7"><i class="fa-regular fa-star"></i></a>
+        </div>
+        <nav>
+          <ul class="links"> 
+            <li><a href="#">Home </a></li>
+            <li><a class="prods-menu menu" href="#">Products <i class="fa-solid fa-angle-down">  </i></a>
+              <div class="products-menu"> 
+                <div class="images">
+                  <div class="product">
+                    <div class="image" data-sale="-20%"><img src="images/suit-1.jpg"/><img class="hover" src="images/suit-1-2.jpg"/>
+                      <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"> </i></a></div>
+                    </div>
+                    <div class="info"><a href="#">
+                        <h3>The Sweater At Home</h3></a><span class="old">$57.00</span><span class="price">$45.00</span></div>
+                  </div>
+                  <div class="product">
+                    <div class="image"><img src="images/suit-2.jpg"/><img class="hover" src="images/suit-2-2.jpg"/>
+                      <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"> </i></a></div>
+                    </div>
+                    <div class="info"><a href="#">
+                        <h3>The Sweater At Home</h3></a><span class="old">$57.00</span><span class="price">$45.00</span></div>
+                  </div>
+                  <div class="product">
+                    <div class="image"><img src="images/suit-3.jpg"/><img class="hover" src="images/suit-3-2.jpg"/>
+                      <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"> </i></a></div>
+                    </div>
+                    <div class="info"><a href="#">
+                        <h3>The Sweater At Home</h3></a><span class="old">$57.00</span><span class="price">$45.00</span></div>
+                  </div>
+                </div>
+                <div class="products"> 
+                  <div class="type"> 
+                    <h4>Apparel </h4>
+                    <ul class="brands"> 
+                      <li><a href="#">Parda </a></li>
+                      <li><a href="#">Gucci</a></li>
+                      <li><a href="#">Chanel </a></li>
+                      <li><a href="#">Ganni</a></li>
+                      <li><a href="#">Zara                </a></li>
+                    </ul>
+                  </div>
+                  <div class="type"> 
+                    <h4>Shoes </h4>
+                    <ul class="brands"> 
+                      <li><a href="#">Adidas </a></li>
+                      <li><a href="#">Nike</a></li>
+                      <li><a href="#">Puma </a></li>
+                      <li><a href="#">Gucci</a></li>
+                      <li><a href="#">Dolce &amp;Gabbana </a></li>
+                      <li><a href="#">Luis Vuitton               </a></li>
+                    </ul>
+                  </div>
+                  <div class="type"> 
+                    <h4>Perfume </h4>
+                    <ul class="brands"> 
+                      <li><a href="#">Armani </a></li>
+                      <li><a href="#">Channel</a></li>
+                      <li><a href="#">Dior </a></li>
+                      <li><a href="#">Gucci</a></li>
+                      <li><a href="#">Hugo Boss                </a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li><a href="product.html" target="_blank">Disc</a></li>
+          </ul>
+          <div class="logo"> Theshop</div>
+          <ul class="links"> 
+            <li class="list"><a class="spec-menu menu" href="#">Specials <i class="fa-solid fa-angle-down"> </i></a>
+              <div class="specials"> 
+                <ul> 
+                  <li><a href="#">Dolce &amp;Gabbana </a></li>
+                  <li><a href="#">Luis Vuitton </a></li>
+                  <li><a href="#">Versace </a></li>
+                  <li><a href="#">Dior </a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="categories-page.html" target="_blank">Sale</a></li>
+          </ul>
+        </nav>
+        <div class="nav-icons"> 
+          <div class="search-box">      <a class="search" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <div class="container"><i class="fa-solid fa-magnifying-glass"></i>
+              <input type="search" name="search" placeholder="Search Products"/><span class="close">X</span>
+            </div>
+          </div><a href="#" data-fav="0"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+      </div>
+    </header>
+    <div class="path"> 
+      <ul> 
+        <li><a href="#0">Home </a></li>
+        <li><a href="#0">Products </a></li>
+        <li><a href="#0">Suits</a></li>
+      </ul>
+    </div>
+    <div class="cat-page-content"> 
+      <h2 class="title">Suits </h2>
+      <div class="wrapper"><i class="fa-solid fa-filter filter-trigger"></i>
+        <div class="sidebar"> <i class="fa-solid fa-close filter-close"></i>
+          <h3 class="side-title">Filter </h3>
+          <div class="f-size">
+            <input class="trigger" type="checkbox" name="f-size" id="f-size"/>
+            <label for="f-size"><span>Size</span><i class="fa-solid fa-angle-down">    </i></label>
+            <ul class="row-list"> 
+              <li>
+                <button>S</button>
+              </li>
+              <li>
+                <button class="active">M</button>
+              </li>
+              <li>
+                <button>L</button>
+              </li>
+              <li>
+                <button>XL</button>
+              </li>
+              <li>
+                <button>XXL</button>
+              </li>
+            </ul>
+          </div>
+          <div class="f-color">
+            <input class="trigger" type="checkbox" name="f-color" id="f-color"/>
+            <label for="f-color"><span>Color</span><i class="fa-solid fa-angle-down">    </i></label>
+            <ul class="row-list"> 
+              <li class="grey"></li>
+              <li class="black"> </li>
+              <li class="blue active"></li>
+            </ul>
+          </div>
+          <div class="f-cats"> 
+            <input class="trigger" type="checkbox" name="f-cats" id="f-cats"/>
+            <label for="f-cats"><span>Categories</span><i class="fa-solid fa-angle-down"> </i></label>
+            <ul class="list"> 
+              <li><a href="#">Active Wear</a></li>
+              <li><a href="#">Jakets</a></li>
+              <li><a href="#">Suites</a></li>
+              <li><a href="#">Fashion</a></li>
+              <li><a href="#">Glasses</a></li>
+              <li><a href="#">Hat</a></li>
+              <li><a href="#">Shirts</a></li>
+              <li><a href="#">T-Shirts</a></li>
+              <li><a href="#">pants</a></li>
+            </ul>
+          </div>
+          <div class="f-brands">
+            <input class="trigger" type="checkbox" name="f-brands" id="f-brands"/>
+            <label for="f-brands"><span>Brands</span><i class="fa-solid fa-angle-down"> </i></label>
+            <ul class="list"> 
+              <li><a href="#">Adidas</a></li>
+              <li><a href="#">Chanel</a></li>
+              <li><a href="#">400</a></li>
+              <li><a href="#">Diadora</a></li>
+              <li><a href="#">Polo</a></li>
+              <li><a href="#">Lacoste</a></li>
+              <li><a href="#">Gucci</a></li>
+              <li><a href="#">Hugo</a></li>
+              <li><a href="#">Dolce &amp; Gabbana</a></li>
+            </ul>
+          </div>
+          <div class="f-price-range"> 
+            <h3>Price</h3>
+            <input type="range" min="30" max="500" value="40" step="10" id="price-range"/>
+            <label for="price-range"><span>$30</span><span>$500</span></label>
+          </div>
+        </div>
+        <div class="cat-content"> 
+          <div class="wrapper">
+            <div class="left"> <span>Showing 9 OF 36 Result</span></div>
+            <div class="right">
+              <div class="holder">
+                <div class="selected-category">
+                  <h3 class="title">Suits</h3><i class="fa-solid fa-angle-down"></i>
+                </div>
+                <ul class="categories-list">
+                  <li class="active">Suits</li>
+                  <li>Popular</li>
+                  <li>Rating</li>
+                </ul>
+              </div>
+              <div class="icons">   
+                <div class="icon"> <i class="fa-solid fa-pause fa-fw"></i></div>
+                <div class="icon"> <i class="fa-solid fa-list fa-fw"></i></div>
+                <div class="icon"> <i class="fa-solid fa-tasks fa-fw"></i></div>
+                <div class="icon"> <i class="fa-solid fa-briefcase fa-fw"></i></div>
+              </div>
+            </div>
+          </div>
+          <div class="category suits active">
+            <div class="new"> 
+              <div class="image"> <a href="#"></a><img src="images/suit-1.jpg" alt=""/><img class="hover" src="images/suit-1-2.jpg" alt=""/>
+                <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"></i></a></div>
+              </div>
+              <div class="info"> 
+                <h4>Classic Suit</h4><span class="price">$80 </span>
+              </div>
+            </div>
+            <div class="new"> 
+              <div class="image sale" data-sale="-20%"> <a href="#"></a><img src="images/suit-2.jpg" alt=""/><img class="hover" src="images/suit-2-2.jpg" alt=""/>
+                <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"> </i></a></div>
+              </div>
+              <div class="info"> 
+                <h4>New Suit</h4><span class="old-price">$45</span><span class="price">$36</span>
+              </div>
+            </div>
+            <div class="new"> 
+              <div class="image"> <a href="#"></a><img src="images/suit-3.jpg" alt=""/><img class="hover" src="images/suit-3-2.jpg" alt=""/>
+                <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"></i></a></div>
+              </div>
+              <div class="info"> 
+                <h4>Classic Suit</h4><span class="price">$80 </span>
+              </div>
+            </div>
+            <div class="new"> 
+              <div class="image sale" data-sale="-20%"> <a href="#"></a><img src="images/suit-4.jpg" alt=""/><img class="hover" src="images/suit-4-2.jpg" alt=""/>
+                <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"> </i></a></div>
+              </div>
+              <div class="info"> 
+                <h4>New Suit</h4><span class="old-price">$45</span><span class="price">$36</span>
+              </div>
+            </div>
+            <div class="new"> 
+              <div class="image"> <a href="#"></a><img src="images/suit-5.jpg" alt=""/><img class="hover" src="images/suit-5-2.jpg" alt=""/>
+                <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"></i></a></div>
+              </div>
+              <div class="info"> 
+                <h4>Classic Suit</h4><span class="price">$80 </span>
+              </div>
+            </div>
+            <div class="new"> 
+              <div class="image sale" data-sale="-20%"> <a href="#"></a><img src="images/suit-6.jpg" alt=""/><img class="hover" src="images/suit-6-2.jpg" alt=""/>
+                <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"> </i></a></div>
+              </div>
+              <div class="info"> 
+                <h4>New Suit</h4><span class="old-price">$45</span><span class="price">$36</span>
+              </div>
+            </div>
+          </div>
+          <div class="category jakets">
+            <div class="new">
+              <div class="image"> <a href="#"></a><img src="images/jaket-1.jpg" alt=""/><img class="hover" src="images/jaket-1-2.jpg" alt=""/>
+                <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"></i></a></div>
+              </div>
+              <div class="info"> 
+                <h4>Classic Suit</h4><span class="price">$80 </span>
+              </div>
+            </div>
+            <div class="new">
+              <div class="image"> <a href="#"></a><img src="images/jaket-2.jpg" alt=""/><img class="hover" src="images/jaket-2-2.jpg" alt=""/>
+                <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"></i></a></div>
+              </div>
+              <div class="info"> 
+                <h4>Classic Suit</h4><span class="price">$80 </span>
+              </div>
+            </div>
+          </div>
+          <div class="category shirts">  
+            <div class="new">
+              <div class="image"> <a href="#"></a><img src="images/jaket-1.jpg" alt=""/><img class="hover" src="images/jaket-1-2.jpg" alt=""/>
+                <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"></i></a></div>
+              </div>
+              <div class="info"> 
+                <h4>Classic Suit</h4><span class="price">$80      </span>
+              </div>
+            </div>
+            <div class="new">
+              <div class="image"> <a href="#"></a><img src="images/jaket-2.jpg" alt=""/><img class="hover" src="images/jaket-2-2.jpg" alt=""/>
+                <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"></i></a></div>
+              </div>
+              <div class="info"> 
+                <h4>Classic Suit</h4><span class="price">$80      </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Footer-->
+    <footer> 
+      <div class="container"> 
+        <div class="wrapper">
+          <div class="contact"> 
+            <h4 class="title">Get Voucher From US </h4>
+            <p>Enter Your Email Below To be The First Who Know About Our New Products </p>
+            <form><i class="fa-regular fa-envelope"></i>
+              <input type="email" placeholder="Enter Your Email"/><i class="fa-solid fa-arrow-right"></i>
+              <input type="submit"/>
+            </form>
+          </div>
+          <div class="links">
+            <div class="services">       
+              <h5 class="title">Services</h5>
+              <ul class="list"> 
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Delivery Information</a></li>
+                <li><a href="#">Terms &amp; Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div class="pages">
+              <h5 class="title">Pages</h5>
+              <ul class="list">
+                <li><a href="#">My Account</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Wishlist </a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">Checkout</a></li>
+              </ul>
+            </div>
+            <div class="cotact-infos">
+              <h5 class="title">Contact</h5>
+              <div class="infos"> 
+                <address>Downtown Fashion Mall 5<sup>th</sup>floor.</address><span class="phone">+0033445677</span><span class="mail">theshop@mail.com</span>
+                <div class="opening-days"> <span>Weekdays: 6AM To 6PM;</span><span>Friday: 12PM To 12AM;</span><span>Saturday: 10AM To 6PM;</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="social"> <a href="#"><i class="fab fa-facebook-f">   </i></a><a href="#"><i class="fab fa-twitter">   </i></a><a href="#"><i class="fab fa-youtube">   </i></a><a href="#"><i class="fab fa-instagram">   </i></a><a href="#"><i class="fab fa-pinterest">   </i></a></div>
+        <div class="rights"><span>Created With &lt;3 By Mohammad Al-Rahhal 2023.</span><span>Design From dotWebdesign.ALL Rights Reserved&copy;.  </span></div>
+      </div>
+    </footer>
+    <div class="popup share">
+      <h4>Copy Link </h4>
+      <div class="link">
+        <input type="text" value="https://example.com/new-suit" disabled="disabled"/><i class="fa-solid fa-copy"></i>
+      </div>
+      <h5>Share </h5>
+      <div class="social"> <a href="#"><i class="fab fa-facebook-f">   </i></a><a href="#"><i class="fab fa-twitter">   </i></a><a href="#"><i class="fab fa-youtube">   </i></a><a href="#"><i class="fab fa-instagram">   </i></a><a href="#"><i class="fab fa-whatsapp"> </i></a></div><span class="pop-close">x</span>
+    </div>
+    <div class="popup quest"> 
+      <h3>The Question </h3>
+      <form action="">
+        <input type="text" name="user-name" placeholder="Your Name"/>
+        <input type="email" name="mail" placeholder="Your Email"/>
+        <textarea name="question" placeholder="Your Question Is:"></textarea>
+        <input class="primary-btn" type="submit" value="SUBMIT"/>
+      </form><span class="pop-close">x</span>
+    </div>
+    <div class="popup w-review"> 
+      <h3>Write A Review </h3>
+      <form action="">
+        <div class="p-info">
+          <input type="text" placeholder="Name"/>
+          <input type="email" placeholder="Email"/>
+        </div>
+        <div class="rat-stars"> <span>Your rating:</span>
+          <div class="radio-stars">
+            <input type="radio" name="star" value="5" id="star-one"/>
+            <label for="star-one"><i class="fa-solid fa-star"> </i></label>
+            <input type="radio" name="star" value="4" id="star-two"/>
+            <label for="star-two"><i class="fa-solid fa-star"> </i></label>
+            <input type="radio" name="star" value="3" id="star-three"/>
+            <label for="star-three"><i class="fa-solid fa-star"> </i></label>
+            <input type="radio" name="star" value="2" id="star-four"/>
+            <label for="star-four"><i class="fa-solid fa-star"> </i></label>
+            <input type="radio" name="star" value="1" id="star-five"/>
+            <label for="star-five"><i class="fa-solid fa-star"> </i></label>
+          </div>
+        </div>
+        <div class="rev-content"> 
+          <input type="text" name="rev-title" placeholder="Review Title"/>
+          <textarea name="rev-content" placeholder="Your Review Is:"></textarea>
+        </div>
+        <input class="primary-btn" type="submit" value="Submit"/>
+      </form><span class="pop-close">x</span>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,491 @@
+<!DOCTYPE html >
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>The Shop </title>
+    <!--Font Awesome Library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <!--Goolge Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&amp;display=swap" rel="stylesheet"/>
+    <!--Swiper JS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <!--Main CSS File-->
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+  </head>
+  <body> 
+    <div class="overlay"></div>
+    <header>
+      <div class="container"> 
+        <div class="burger-icon"> <span></span><span></span><span></span></div>
+        <div class="nav-icons">
+          
+          <a href="#"><i class="fa-regular fa-user"></i></a><a href="#" data-fav="7"><i class="fa-regular fa-star"></i></a>
+        </div>
+        <nav>
+          <ul class="links"> 
+            <li><a href="#">Home </a></li>
+            <li><a class="prods-menu menu" href="#">Products <i class="fa-solid fa-angle-down">  </i></a>
+              <div class="products-menu"> 
+                <div class="images">
+                  <div class="product">
+                    <div class="image" data-sale="-20%"><img src="images/suit-1.jpg"/><img class="hover" src="images/suit-1-2.jpg"/>
+                      <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"> </i></a></div>
+                    </div>
+                    <div class="info"><a href="#">
+                        <h3>The Sweater At Home</h3></a><span class="old">$57.00</span><span class="price">$45.00</span></div>
+                  </div>
+                  <div class="product">
+                    <div class="image"><img src="images/suit-2.jpg"/><img class="hover" src="images/suit-2-2.jpg"/>
+                      <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"> </i></a></div>
+                    </div>
+                    <div class="info"><a href="#">
+                        <h3>The Sweater At Home</h3></a><span class="old">$57.00</span><span class="price">$45.00</span></div>
+                  </div>
+                  <div class="product">
+                    <div class="image"><img src="images/suit-3.jpg"/><img class="hover" src="images/suit-3-2.jpg"/>
+                      <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"> </i></a></div>
+                    </div>
+                    <div class="info"><a href="#">
+                        <h3>The Sweater At Home</h3></a><span class="old">$57.00</span><span class="price">$45.00</span></div>
+                  </div>
+                </div>
+                <div class="products"> 
+                  <div class="type"> 
+                    <h4>Apparel </h4>
+                    <ul class="brands"> 
+                      <li><a href="#">Parda </a></li>
+                      <li><a href="#">Gucci</a></li>
+                      <li><a href="#">Chanel </a></li>
+                      <li><a href="#">Ganni</a></li>
+                      <li><a href="#">Zara                </a></li>
+                    </ul>
+                  </div>
+                  <div class="type"> 
+                    <h4>Shoes </h4>
+                    <ul class="brands"> 
+                      <li><a href="#">Adidas </a></li>
+                      <li><a href="#">Nike</a></li>
+                      <li><a href="#">Puma </a></li>
+                      <li><a href="#">Gucci</a></li>
+                      <li><a href="#">Dolce &amp;Gabbana </a></li>
+                      <li><a href="#">Luis Vuitton               </a></li>
+                    </ul>
+                  </div>
+                  <div class="type"> 
+                    <h4>Perfume </h4>
+                    <ul class="brands"> 
+                      <li><a href="#">Armani </a></li>
+                      <li><a href="#">Channel</a></li>
+                      <li><a href="#">Dior </a></li>
+                      <li><a href="#">Gucci</a></li>
+                      <li><a href="#">Hugo Boss                </a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li><a href="product.html" target="_blank">Disc</a></li>
+          </ul>
+          <div class="logo"> Theshop</div>
+          <ul class="links"> 
+            <li class="list"><a class="spec-menu menu" href="#">Specials <i class="fa-solid fa-angle-down"> </i></a>
+              <div class="specials"> 
+                <ul> 
+                  <li><a href="#">Dolce &amp;Gabbana </a></li>
+                  <li><a href="#">Luis Vuitton </a></li>
+                  <li><a href="#">Versace </a></li>
+                  <li><a href="#">Dior </a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="categories-page.html" target="_blank">Sale</a></li>
+          </ul>
+        </nav>
+        <div class="nav-icons"> 
+          <div class="search-box">      <a class="search" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <div class="container"><i class="fa-solid fa-magnifying-glass"></i>
+              <input type="search" name="search" placeholder="Search Products"/><span class="close">X</span>
+            </div>
+          </div><a href="#" data-fav="0"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+      </div>
+    </header>
+    <!-- Slider main container-->
+    <div class=" landing swiper"> 
+      <!-- Additional required wrapper-->
+      <div class="swiper-wrapper">
+        <!--Slides-->
+        <div class="swiper-slide"> 
+          <div class="holder">
+            <div class="image"><img src="images/slider-4.jpg"/>
+              <!--If we need pagination-->
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="info"> <span class="price">
+                 $50</span>
+              <h2 class="title">Feel The Tosca Color </h2>
+              <div class="btn"> <a class="primary-btn" href="#">Shop Now</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="holder">
+            <div class="image"> <img src="images/slider-2.jpg"/>
+              <!--If we need pagination-->
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="info"> <span class="price">
+                 $150</span>
+              <h2 class="title">Feel The Tosca Color </h2>
+              <div class="btn"> <a class="primary-btn" href="#">Shop Now</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide"> 
+          <div class="holder">
+            <div class="image"><img src="images/slider-3.jpg"/>
+              <!--If we need pagination-->
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="info"> <span class="price">
+                 $120</span>
+              <h2 class="title">Feel The Tosca Color </h2>
+              <div class="btn"> <a class="primary-btn" href="#">Shop Now</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Start Guide-->
+    <div class="guides"> 
+      <div class="container"> 
+        <h3 class="title">Products Guide</h3>
+        <div class="wrapper">
+          <div class="guide"> <a href="#"></a>
+            <div class="image"> <img src="images/guide-1.jpg"/></div>
+            <div class="info">
+              <h3>choose Your Pants</h3>
+              <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem quia accusantium aut, maxime magnam natus.</p>
+            </div>
+          </div>
+          <div class="guide"> <a href="#"></a>
+            <div class="image"> <img src="images/guide-2.jpg"/></div>
+            <div class="info">
+              <h3>Pic Your Suitable Colors</h3>
+              <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem quia accusantium aut, maxime magnam natus.</p>
+            </div>
+          </div>
+          <div class="guide"> <a href="#"></a>
+            <div class="image"> <img src="images/guide-3.jpg"/></div>
+            <div class="info">
+              <h3>Tie Your Shoose Elegantly</h3>
+              <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem quia accusantium aut, maxime magnam natus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End Guide-->
+    <!--Arrivals -->
+    <div class="arrivals">  
+      <div class="container">
+        <h3 class="title">New Arrivals</h3>
+        <div class="wrapper">
+          <!-- Slider main container-->
+          <div class="arrivals-swiper swiper"> 
+            <!-- Additional required wrapper-->
+            <div class="swiper-wrapper">
+              <!-- Slides-->
+              <div class="swiper-slide">
+                <div class="new"> 
+                  <div class="image"> <a href="#"></a><img src="images/suit-1.jpg" alt=""/><img class="hover" src="images/suit-1-2.jpg" alt=""/>
+                    <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"></i></a></div>
+                  </div>
+                  <div class="info"> 
+                    <h4>Classic Suit</h4><span class="price">$80 </span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="new"> 
+                  <div class="image sale" data-sale="-20%"> <a href="#"></a><img src="images/suit-2.jpg" alt=""/><img class="hover" src="images/suit-2-2.jpg" alt=""/>
+                    <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"> </i></a></div>
+                  </div>
+                  <div class="info"> 
+                    <h4>New Suit</h4><span class="old-price">$45</span><span class="price">$36</span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="new"> 
+                  <div class="image"> <a href="#"></a><img src="images/suit-3.jpg" alt=""/><img class="hover" src="images/suit-3-2.jpg" alt=""/>
+                    <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"></i></a></div>
+                  </div>
+                  <div class="info"> 
+                    <h4>Classic Suit</h4><span class="price">$80 </span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="new"> 
+                  <div class="image sale" data-sale="-20%"> <a href="#"></a><img src="images/suit-4.jpg" alt=""/><img class="hover" src="images/suit-4-2.jpg" alt=""/>
+                    <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"> </i></a></div>
+                  </div>
+                  <div class="info"> 
+                    <h4>New Suit</h4><span class="old-price">$45</span><span class="price">$36</span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="new"> 
+                  <div class="image"> <a href="#"></a><img src="images/suit-5.jpg" alt=""/><img class="hover" src="images/suit-5-2.jpg" alt=""/>
+                    <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"></i></a></div>
+                  </div>
+                  <div class="info"> 
+                    <h4>Classic Suit</h4><span class="price">$80 </span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="new"> 
+                  <div class="image sale" data-sale="-20%"> <a href="#"></a><img src="images/suit-6.jpg" alt=""/><img class="hover" src="images/suit-6-2.jpg" alt=""/>
+                    <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"> </i></a></div>
+                  </div>
+                  <div class="info"> 
+                    <h4>New Suit</h4><span class="old-price">$45</span><span class="price">$36</span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="new"> 
+                  <div class="image"><a href="#"> </a><img src="images/jaket-1.jpg" alt=""/><img class="hover" src="images/jaket-1-2.jpg" alt=""/>
+                    <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"> </i></a></div>
+                  </div>
+                  <div class="info"> 
+                    <h4>The New Jaket </h4><span class="price">$45</span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="new"> 
+                  <div class="image"><a href="#"> </a><img src="images/jaket-2.jpg" alt=""/><img class="hover" src="images/jaket-2-2.jpg" alt=""/>
+                    <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"> </i></a></div>
+                  </div>
+                  <div class="info"> 
+                    <h4>The New Jaket </h4><span class="price">$45</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <nav>   
+            <div class="swiper-button-prev"><i class="fa-solid fa-arrow-left"></i></div>
+            <div class="swiper-button-next"><i class="fa-solid fa-arrow-right"></i></div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!--Cateogries-->
+    <div class="categories"> 
+      <div class="container"> 
+        <div class="title-wrapper"> <span>in  </span>
+          <div class="holder">
+            <div class="selected-category">
+              <h3 class="title">Suits</h3><i class="fa-solid fa-angle-down"></i>
+            </div>
+            <ul class="categories-list">
+              <li class="active">Suits</li>
+              <li>Jakets</li>
+              <li>Shirts</li>
+            </ul>
+          </div>
+        </div>
+        <div class="category suits active">
+          <div class="new"> 
+            <div class="image"> <a href="#"></a><img src="images/suit-1.jpg" alt=""/><img class="hover" src="images/suit-1-2.jpg" alt=""/>
+              <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"></i></a></div>
+            </div>
+            <div class="info"> 
+              <h4>Classic Suit</h4><span class="price">$80 </span>
+            </div>
+          </div>
+          <div class="new"> 
+            <div class="image sale" data-sale="-20%"> <a href="#"></a><img src="images/suit-2.jpg" alt=""/><img class="hover" src="images/suit-2-2.jpg" alt=""/>
+              <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"> </i></a></div>
+            </div>
+            <div class="info"> 
+              <h4>New Suit</h4><span class="old-price">$45</span><span class="price">$36</span>
+            </div>
+          </div>
+          <div class="new"> 
+            <div class="image"> <a href="#"></a><img src="images/suit-3.jpg" alt=""/><img class="hover" src="images/suit-3-2.jpg" alt=""/>
+              <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"></i></a></div>
+            </div>
+            <div class="info"> 
+              <h4>Classic Suit</h4><span class="price">$80 </span>
+            </div>
+          </div>
+          <div class="new"> 
+            <div class="image sale" data-sale="-20%"> <a href="#"></a><img src="images/suit-4.jpg" alt=""/><img class="hover" src="images/suit-4-2.jpg" alt=""/>
+              <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"> </i></a></div>
+            </div>
+            <div class="info"> 
+              <h4>New Suit</h4><span class="old-price">$45</span><span class="price">$36</span>
+            </div>
+          </div>
+          <div class="new"> 
+            <div class="image"> <a href="#"></a><img src="images/suit-5.jpg" alt=""/><img class="hover" src="images/suit-5-2.jpg" alt=""/>
+              <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"></i></a></div>
+            </div>
+            <div class="info"> 
+              <h4>Classic Suit</h4><span class="price">$80 </span>
+            </div>
+          </div>
+          <div class="new"> 
+            <div class="image sale" data-sale="-20%"> <a href="#"></a><img src="images/suit-6.jpg" alt=""/><img class="hover" src="images/suit-6-2.jpg" alt=""/>
+              <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"> </i></a></div>
+            </div>
+            <div class="info"> 
+              <h4>New Suit</h4><span class="old-price">$45</span><span class="price">$36</span>
+            </div>
+          </div>
+        </div>
+        <div class="category jakets">
+          <div class="new">
+            <div class="image"> <a href="#"></a><img src="images/jaket-1.jpg" alt=""/><img class="hover" src="images/jaket-1-2.jpg" alt=""/>
+              <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"></i></a></div>
+            </div>
+            <div class="info"> 
+              <h4>Classic Suit</h4><span class="price">$80 </span>
+            </div>
+          </div>
+          <div class="new">
+            <div class="image"> <a href="#"></a><img src="images/jaket-2.jpg" alt=""/><img class="hover" src="images/jaket-2-2.jpg" alt=""/>
+              <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"></i></a></div>
+            </div>
+            <div class="info"> 
+              <h4>Classic Suit</h4><span class="price">$80 </span>
+            </div>
+          </div>
+        </div>
+        <div class="category shirts">  
+          <div class="new">
+            <div class="image"> <a href="#"></a><img src="images/jaket-1.jpg" alt=""/><img class="hover" src="images/jaket-1-2.jpg" alt=""/>
+              <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"></i></a></div>
+            </div>
+            <div class="info"> 
+              <h4>Classic Suit</h4><span class="price">$80      </span>
+            </div>
+          </div>
+          <div class="new">
+            <div class="image"> <a href="#"></a><img src="images/jaket-2.jpg" alt=""/><img class="hover" src="images/jaket-2-2.jpg" alt=""/>
+              <div class="image-icons"> <a href="#"><i class="fa-regular fa-star">  </i></a><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"> </i></a><a href="#"><i class="fa-solid fa-eye"></i></a></div>
+            </div>
+            <div class="info"> 
+              <h4>Classic Suit</h4><span class="price">$80      </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Banner-->
+    <div class="banner"> 
+      <div class="container">
+        <div class="banner-info">
+          <div class="text"> <span>Promo </span>
+            <h2 class="title">Get Ready! <br> Winter Is Coming.. </h2>
+          </div>
+          <div class="primary-btn">Go Get It    </div>
+        </div>
+      </div>
+    </div>
+    <!--Blog-->
+    <div class="from-blog"> 
+      <div class="container"> 
+        <h3 class="title">From The Blog</h3>
+        <div class="wrapper">
+          <div class="blog"><a href="#"> 
+              <div class="image"> <img src="images/blog-1.jpg"/></div></a><a href="#"> <span class="section">Suits</span></a><a href="#"> 
+              <div class="title">
+                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, ad?</h4>
+              </div></a></div>
+          <div class="blog"><a href="#"> 
+              <div class="image"> <img src="images/blog-2.jpg"/></div></a><a href="#"> <span class="section">Tips</span></a><a href="#"> 
+              <div class="title">
+                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, ad?</h4>
+              </div></a></div>
+          <div class="blog"><a href="#"> 
+              <div class="image"> <img src="images/blog-3.jpg"/></div></a><a href="#"> <span class="section">Jakets</span></a><a href="#"> 
+              <div class="title">
+                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, ad?</h4>
+              </div></a></div>
+        </div>
+        <div class="primary-btn">Read More</div>
+      </div>
+    </div>
+    <!--Insta Photos-->
+    <div class="insta-pics"> 
+      <h3 class="title">Popular Instagram Photos</h3>
+      <div class="pics"> 
+        <div class="image"> <img src="images/insta-1.jpg" alt=""/><a class="insta-icon" href="#"> <img src="images/instagram-line.png" alt=""/></a></div>
+        <div class="image"> <img src="images/insta-2.jpg" alt=""/><a class="insta-icon" href="#"> <img src="images/instagram-line.png" alt=""/></a></div>
+        <div class="image"> <img src="images/insta-3.jpg" alt=""/><a class="insta-icon" href="#"> <img src="images/instagram-line.png" alt=""/></a></div>
+        <div class="image"> <img src="images/insta-4.jpg" alt=""/><a class="insta-icon" href="#"> <img src="images/instagram-line.png" alt=""/></a></div>
+        <div class="image"> <img src="images/insta-5.jpg" alt=""/><a class="insta-icon" href="#"> <img src="images/instagram-line.png" alt=""/></a></div>
+      </div>
+    </div>
+    <!--Footer-->
+    <footer> 
+      <div class="container"> 
+        <div class="wrapper">
+          <div class="contact"> 
+            <h4 class="title">Get Voucher From US </h4>
+            <p>Enter Your Email Below To be The First Who Know About Our New Products </p>
+            <form><i class="fa-regular fa-envelope"></i>
+              <input type="email" placeholder="Enter Your Email"/><i class="fa-solid fa-arrow-right"></i>
+              <input type="submit"/>
+            </form>
+          </div>
+          <div class="links">
+            <div class="services">       
+              <h5 class="title">Services</h5>
+              <ul class="list"> 
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Delivery Information</a></li>
+                <li><a href="#">Terms &amp; Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div class="pages">
+              <h5 class="title">Pages</h5>
+              <ul class="list">
+                <li><a href="#">My Account</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Wishlist </a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">Checkout</a></li>
+              </ul>
+            </div>
+            <div class="cotact-infos">
+              <h5 class="title">Contact</h5>
+              <div class="infos"> 
+                <address>Downtown Fashion Mall 5<sup>th</sup>floor.</address><span class="phone">+0033445677</span><span class="mail">theshop@mail.com</span>
+                <div class="opening-days"> <span>Weekdays: 6AM To 6PM;</span><span>Friday: 12PM To 12AM;</span><span>Saturday: 10AM To 6PM;</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="social"> <a href="#"><i class="fab fa-facebook-f">   </i></a><a href="#"><i class="fab fa-twitter">   </i></a><a href="#"><i class="fab fa-youtube">   </i></a><a href="#"><i class="fab fa-instagram">   </i></a><a href="#"><i class="fab fa-pinterest">   </i></a></div>
+        <div class="rights"><span>Created With &lt;3 By Mohammad Al-Rahhal 2023.</span><span>Design From dotWebdesign.ALL Rights Reserved&copy;.  </span></div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
